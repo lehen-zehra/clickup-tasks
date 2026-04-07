@@ -134,6 +134,10 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Project data files (task JSONs/CSVs) — keep examples, ignore everything else
+data/*
+!data/example_*
+
 # Environments
 .env
 .envrc

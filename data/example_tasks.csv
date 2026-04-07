@@ -1,0 +1,6 @@
+name,description,priority,due_date,assignees,tags,parent
+Set up CI/CD pipeline,Configure GitHub Actions for automated testing and deployment.,high,2026-04-01,,devops,
+Create GitHub Actions workflow file,,high,,,devops,Set up CI/CD pipeline
+Configure staging environment secrets,,normal,,,,Set up CI/CD pipeline
+Design database schema,Define tables and relationships for user auth module.,urgent,2026-03-28,,backend,
+Write unit tests for payment service,Achieve 80% coverage on the payment service.,normal,2026-04-10,,testing,

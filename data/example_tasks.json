@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Set up CI/CD pipeline",
+    "description": "Configure GitHub Actions for automated testing and deployment to staging.",
+    "priority": "high",
+    "due_date": "2026-04-01",
+    "tags": ["devops", "backend"],
+    "subtasks": [
+      {
+        "name": "Create GitHub Actions workflow file",
+        "priority": "high",
+        "subtasks": [
+          {
+            "name": "Add lint step",
+            "priority": "normal"
+          },
+          {
+            "name": "Add test step",
+            "priority": "normal"
+          }
+        ]
+      },
+      {
+        "name": "Configure staging environment secrets",
+        "priority": "normal"
+      }
+    ]
+  },
+  {
+    "name": "Design database schema for user module",
+    "description": "Define tables, relationships and indexes for the user auth module.",
+    "priority": "urgent",
+    "due_date": "2026-03-28",
+    "tags": ["backend", "database"]
+  }
+]
